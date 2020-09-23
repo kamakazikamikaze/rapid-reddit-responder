@@ -13,11 +13,11 @@ How do I set this up?
 You'll need a supported version of Python (recommend 3.6+) with Pip. I recommend
 creating a virtualenv to ensure your system's Python does not interfere with packages.
 
-To install dependencies, run:
+To install dependencies, run::
 
     pip install -r requirements.txt
 
-For first-time setup only, run:
+For first-time setup only, run::
 
     python3 responder.py -g config.ini
 
@@ -26,7 +26,7 @@ to match the target user, the account you want to comment with, and the canned
 message response.
 
 In the directory where this script will run, create a file named ``praw.ini``
-and copy-paste the following:
+and copy-paste the following::
 
     [DEFAULT]
     check_for_updates=False
